@@ -18,6 +18,7 @@ while data:
     client_socket.send(data)
     data = file_to_send.read(buffer_size)
 print("Make change in client.py")
+print("Make new change in client.py")
 # Close the socket and the file
 client_socket.close()
 file_to_send.close()
