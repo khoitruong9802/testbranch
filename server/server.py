@@ -18,6 +18,7 @@ print(f"Listening on {server_ip}:{server_port}")
 # Accept a client connection
 client_socket, client_address = server_socket.accept()
 print(f"Accepted connection from {client_address}")
+print("Make change in server.py")
 
 # Receive the file
 received_file = open('received_file.txt', 'wb')
