@@ -34,3 +34,4 @@ client_socket.close()
 server_socket.close()
 
 print("Update server")
+print("Update server 111")
